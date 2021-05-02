@@ -1,0 +1,11 @@
+prefix=/home/talustus/coreboot-git/util/crossgcc/xgcc/aarch64-linux-gnu/sysroot/usr
+exec_prefix=/home/talustus/coreboot-git/util/crossgcc/xgcc/aarch64-linux-gnu/sysroot/usr
+libdir=/home/talustus/coreboot-git/util/crossgcc/xgcc/aarch64-linux-gnu/sysroot/usr/lib
+includedir=/home/talustus/coreboot-git/util/crossgcc/xgcc/aarch64-linux-gnu/sysroot/usr/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.37.0
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

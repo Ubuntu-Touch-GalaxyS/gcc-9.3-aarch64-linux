@@ -1,0 +1,10 @@
+prefix=/home/talustus/coreboot-git/util/crossgcc/xgcc/aarch64-linux-gnu/sysroot/usr
+exec_prefix=/home/talustus/coreboot-git/util/crossgcc/xgcc/aarch64-linux-gnu/sysroot/usr
+libdir=/home/talustus/coreboot-git/util/crossgcc/xgcc/aarch64-linux-gnu/sysroot/usr/lib
+includedir=/home/talustus/coreboot-git/util/crossgcc/xgcc/aarch64-linux-gnu/sysroot/usr/include
+
+Name: blkid
+Description: Block device id library
+Version: 2.37.0
+Cflags: -I${includedir}/blkid
+Libs: -L${libdir} -lblkid
